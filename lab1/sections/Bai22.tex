@@ -80,7 +80,14 @@ Vậy $X_1$ và $X_3$ không độc lập.
 %--------2.2c--------
 \begin{subquestion}
 \begin{answer}
-    Câu c
+    \section*{Bài 2.2c:}
+Ta xét vectơ ngẫu nhiên:
+$$ X^* = \begin{pmatrix} X_1 \\ X_3 \\ \hline X_2 \end{pmatrix} = \begin{pmatrix} X_1^* \\ X_2^* \end{pmatrix} $$
+với $X_1^* = (X_1, X_3)'$ và $X_2^* = X_2$.
+
+Vì: $$ \Sigma_{12}^* = Cov(X_1^*, X_2^*) = Cov\left( \begin{pmatrix} X_1 \\ X_3 \end{pmatrix}; X_2 \right) = \begin{pmatrix} Cov(X_1, X_2) \\ Cov(X_3, X_2) \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} $$
+
+Nên $(X_1, X_3)$ và $X_2$ độc lập.
 \end{answer}
 \end{subquestion}
 
