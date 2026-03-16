@@ -1,0 +1,11 @@
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{1.5} % Điều chỉnh độ cao của dòng
+\begin{tabular}{|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Thành Viên}} & \multicolumn{1}{c|}{\textbf{Bài tập}} \\ \hline
+Nguyễn Tiến Thịnh  & 2.8 -- 2.3b - 2.2c                      \\ \hline
+Nguyễn Thị Ngọc Anh & 2.4 -- 2.3c - 2.2d                      \\ \hline
+Nguyễn Chí Tiến    & 2.7 -- 2.3a -- 2.2a,b                   \\ \hline
+\end{tabular}
+\end{table}
