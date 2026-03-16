@@ -1,0 +1,86 @@
+\begin{question}{2.2}
+    Cho
+\[
+X = (X_1, X_2, X_3)' \sim N_3(\mu, \Sigma)
+\]
+
+với
+\[
+\mu =
+\begin{pmatrix}
+1\\
+-1\\
+2
+\end{pmatrix},
+\qquad
+\Sigma =
+\begin{pmatrix}
+4 & 0 & -1\\
+0 & 5 & 0\\
+-1 & 0 & 2
+\end{pmatrix}.
+\]
+Xét tính độc lập của:
+
+\begin{enumerate}
+\item[(a)] $X_1 \text{ và } X_2$
+\item[(b)] $X_1 \text{ và } X_2$
+\item[(c)] $(X_1, X_3) \text{ và } X_2$
+\item[(d)] $X_1 \text{ và } X_1 + 3X_2 - 2X_3$
+\end{enumerate}
+
+%\begin{subquestion}
+%\begin{answer}
+% Add answer
+%\end{answer}
+%\end{subquestion}
+
+%--------2.2d--------
+\begin{subquestion}
+\begin{answer}
+
+Vì $X$ có phân phối chuẩn nhiều chiều nên mọi tổ hợp tuyến tính của các thành phần của $X$ cũng có phân phối chuẩn. Do đó vector
+\[
+(X_1,Y)'
+\]
+có phân phối chuẩn hai chiều.\\
+
+Đặt
+\[
+Y=X_1+3X_2-2X_3.
+\]
+
+Xét hiệp phương sai:
+\begin{align*}
+\mathrm{Cov}(X_1,Y)
+&=\mathrm{Cov}(X_1,X_1+3X_2-2X_3) \\
+&=\mathrm{Cov}(X_1,X_1)+3\mathrm{Cov}(X_1,X_2)-2\mathrm{Cov}(X_1,X_3).
+\end{align*}
+
+Từ ma trận hiệp phương sai $\Sigma$ ta có
+\[
+\mathrm{Var}(X_1)=\mathrm{Cov}(X_1,X_1)=4,
+\qquad
+\mathrm{Cov}(X_1,X_2)=0,
+\qquad
+\mathrm{Cov}(X_1,X_3)=-1.
+\]
+
+Thay vào công thức:
+\[
+\mathrm{Cov}(X_1,Y)
+=4+3(0)-2(-1)=6.
+\]
+
+Vì
+\[
+\mathrm{Cov}(X_1,Y)=6\neq0,
+\]
+nên $X_1$ và $Y=X_1+3X_2-2X_3$ không độc lập.
+
+
+\end{answer}
+\end{subquestion}
+
+
+\end{question}
