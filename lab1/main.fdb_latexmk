@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1773671861.22462 "main.xdv" "main.pdf" "main" 1773671861.60274 0
-  "main.xdv" 1773671861.15324 52612 4cda74db73bff9e3323c65412901c2a8 "xelatex"
+["xdvipdfmx"] 1773672993.77818 "main.xdv" "main.pdf" "main" 1773672994.08796 0
+  "main.xdv" 1773672993.71532 52604 eab3e745add33f550c339c16bddb1503 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1773671860.17579 "/home/ngocanh/TKNC/lab1/main.tex" "main.xdv" "main" 1773671861.59987 0
+["xelatex"] 1773672992.60747 "/home/ngocanh/TKNC/lab1/main.tex" "main.xdv" "main" 1773672994.08584 0
   "/etc/texmf/web2c/texmf.cnf" 1759987305.73438 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/ngocanh/TKNC/lab1/main.tex" 1773670788.18265 3718 c8f687b0590e8dd71a4ace02cd07a502 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -180,15 +180,15 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1765268420 10843920 cb5ca843910c9fe65360321bd5aa9013 ""
-  "main.aux" 1773671861.15324 726 f6b33891a34753b9b3600f5ea9b82c7d "xelatex"
-  "main.out" 1773671861.15324 425 61efd4f58ddf75d4e5035dd12aab9b98 "xelatex"
+  "main.aux" 1773672993.71172 726 f6b33891a34753b9b3600f5ea9b82c7d "xelatex"
+  "main.out" 1773672993.71532 425 61efd4f58ddf75d4e5035dd12aab9b98 "xelatex"
   "main.tex" 1773670788.18265 3718 c8f687b0590e8dd71a4ace02cd07a502 ""
-  "main.toc" 1773671861.15324 280 26eaf11f7a30cfea6be3d1c730847f2e "xelatex"
+  "main.toc" 1773672993.71532 280 26eaf11f7a30cfea6be3d1c730847f2e "xelatex"
   "sections/Bai22.tex" 1773671607.51166 2270 855ce0ca83092d0536a22d73c1d1c91f ""
   "sections/Bai23.tex" 1773671756.83584 2606 3554f11811714cb92b4c6b47cb14c77a ""
   "sections/Bai24.tex" 1773671858.2728 1706 844640d067fd3d51713739366f6986bc ""
   "sections/Bai27.tex" 1773645487.55971 2292 0c0f590f34edf545b594d827f9bf1bc7 ""
-  "sections/Bai28.tex" 1773671113.22372 2382 63f73f5794f5612a1da49f88a913a9e3 ""
+  "sections/Bai28.tex" 1773672992.33292 2386 e2153cfb9da1382f04ed7128cb320a75 ""
   "sections/bangPhanCong.tex" 1773671277.06747 528 536e60b9c03822573fe09faa112f1036 ""
   (generated)
   "main.aux"
