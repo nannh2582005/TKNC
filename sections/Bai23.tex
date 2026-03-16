@@ -1,0 +1,175 @@
+\begin{question}{2.3c}
+Cho
+\[
+X = (X_1, X_2, X_3)' \sim N_3(\mu, \Sigma)
+\]
+
+với
+\[
+\mu =
+\begin{pmatrix}
+1\\
+-1\\
+2
+\end{pmatrix},
+\qquad
+\Sigma =
+\begin{pmatrix}
+4 & 0 & -1\\
+0 & 5 & 0\\
+-1 & 0 & 2
+\end{pmatrix}.
+\]
+
+Xác định phân phối có điều kiện của
+\[
+X_2 \text{ khi biết } X_1 = x_1 \text{ và } X_3 = x_3.
+\]
+
+\begin{answer}
+Ta cần tìm phân phối của
+\[
+X_2 \mid (X_1 = x_1,\; X_3 = x_3).
+\]
+
+Vì $X$ có phân phối chuẩn nhiều chiều nên phân phối có điều kiện của một thành phần khi biết các thành phần còn lại vẫn là phân phối chuẩn.
+
+Đặt
+\[
+Y = X_2, \qquad
+Z =
+\begin{pmatrix}
+X_1 \\
+X_3
+\end{pmatrix}.
+\]
+
+Khi đó, theo công thức phân phối có điều kiện của phân phối chuẩn nhiều chiều, ta có
+\[
+Y \mid Z = z \sim N\left(
+\mu_Y + \Sigma_{YZ}\Sigma_{ZZ}^{-1}(z - \mu_Z),\;
+\Sigma_{YY} - \Sigma_{YZ}\Sigma_{ZZ}^{-1}\Sigma_{ZY}
+\right).
+\]
+
+- Vì
+\[
+\mu =
+\begin{pmatrix}
+1\\
+-1\\
+2
+\end{pmatrix},
+\]
+nên
+\[
+\mu_Y = E(X_2) = -1, \qquad
+\mu_Z =
+\begin{pmatrix}
+E(X_1)\\
+E(X_3)
+\end{pmatrix}
+=
+\begin{pmatrix}
+1\\
+2
+\end{pmatrix}.
+\]
+
+- Từ
+\[
+\Sigma =
+\begin{pmatrix}
+4 & 0 & -1\\
+0 & 5 & 0\\
+-1 & 0 & 2
+\end{pmatrix},
+\]
+
+ta có
+\begin{itemize}
+    \item $\Sigma_{YY} = \mathrm{Var}(X_2) = 5$.
+    \item $\Sigma_{YZ} = 
+        \begin{pmatrix} 
+        \mathrm{Cov}(X_2, X_1) & \mathrm{Cov}(X_2, X_3)
+        \end{pmatrix} = 
+        \begin{pmatrix}
+        0 & 0
+        \end{pmatrix}$.
+    \item 
+        \[
+        \Sigma_{ZZ} =
+        \begin{pmatrix}
+        \mathrm{Var}(X_1) & \mathrm{Cov}(X_1, X_3)\\
+        \mathrm{Cov}(X_3, X_1) & \mathrm{Var}(X_3)
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+        4 & -1\\
+        -1 & 2
+        \end{pmatrix}.
+        \]
+\end{itemize}
+
+\textbf{Kỳ vọng có điều kiện:}
+
+Theo công thức,
+\[
+E(X_2 \mid X_1 = x_1, X_3 = x_3)
+= \mu_Y + \Sigma_{YZ}\Sigma_{ZZ}^{-1}
+\left[
+\begin{pmatrix}
+x_1\\
+x_3
+\end{pmatrix}
+-
+\begin{pmatrix}
+1\\
+2
+\end{pmatrix}
+\right].
+\]
+
+Vì
+\[
+\Sigma_{YZ} = (0 \;\; 0),
+\]
+nên
+\[
+\Sigma_{YZ}\Sigma_{ZZ}^{-1} = (0 \;\; 0).
+\]
+
+Do đó
+\[
+E(X_2 \mid X_1 = x_1, X_3 = x_3) = -1.
+\]
+
+\textbf{Phương sai có điều kiện:}
+
+Theo công thức,
+\[
+\mathrm{Var}(X_2 \mid X_1 = x_1, X_3 = x_3)
+= \Sigma_{YY} - \Sigma_{YZ}\Sigma_{ZZ}^{-1}\Sigma_{ZY}.
+\]
+
+Vì
+\[
+\Sigma_{YZ} = (0 \;\; 0),
+\]
+nên
+\[
+\Sigma_{YZ}\Sigma_{ZZ}^{-1}\Sigma_{ZY} = 0.
+\]
+
+Suy ra
+\[
+\mathrm{Var}(X_2 \mid X_1 = x_1, X_3 = x_3) = 5.
+\]
+
+\textbf{Vậy}
+\[
+X_2 \mid (X_1 = x_1, X_3 = x_3) \sim N(-1, 5).
+\]
+
+\end{answer}
+\end{question}
