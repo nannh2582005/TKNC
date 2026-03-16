@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1773671279.46575 "main.xdv" "main.pdf" "main" 1773671279.81818 0
-  "main.xdv" 1773671279.39947 62720 f260bdf78d16dd8c92345f08da0ec990 "xelatex"
+["xdvipdfmx"] 1773671449.98509 "main.xdv" "main.pdf" "main" 1773671450.32928 0
+  "main.xdv" 1773671449.90544 62368 9946322f2d40cb20f36b082fa54dd405 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1773671278.43546 "/home/ngocanh/TKNC/lab1/main.tex" "main.xdv" "main" 1773671279.81443 0
+["xelatex"] 1773671448.81967 "/home/ngocanh/TKNC/lab1/main.tex" "main.xdv" "main" 1773671450.3259 0
   "/etc/texmf/web2c/texmf.cnf" 1759987305.73438 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/ngocanh/TKNC/lab1/main.tex" 1773670788.18265 3718 c8f687b0590e8dd71a4ace02cd07a502 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -180,12 +180,12 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1765268420 10843920 cb5ca843910c9fe65360321bd5aa9013 ""
-  "main.aux" 1773671279.39581 727 a2dcc3394aa5414e39ac55bded2f22b2 "xelatex"
-  "main.out" 1773671279.39947 425 b76567e9899b1e74bdda409458a63815 "xelatex"
+  "main.aux" 1773671449.90544 727 e18f789ced4216ea4dd8050ff16a45a8 "xelatex"
+  "main.out" 1773671449.90544 425 61efd4f58ddf75d4e5035dd12aab9b98 "xelatex"
   "main.tex" 1773670788.18265 3718 c8f687b0590e8dd71a4ace02cd07a502 ""
-  "main.toc" 1773671279.39947 281 5e4ac4930a2a676127ead8e20a575fc3 "xelatex"
-  "sections/Bai22.tex" 1773670709.8623 2565 0e037a367c3f8180693f73e15a3eced4 ""
-  "sections/Bai23.tex" 1773670709.8623 4044 e69a177a31d40b575dd442cd5c749666 ""
+  "main.toc" 1773671449.90544 281 e534af29d92a4cfbc8f3c811649c054f "xelatex"
+  "sections/Bai22.tex" 1773671409.10054 2539 70503d33a7bf20006afc859a0f8f600a ""
+  "sections/Bai23.tex" 1773671447.41944 4018 eb36d6ebe4236a4c094f7291919c609d ""
   "sections/Bai24.tex" 1773645444.36643 2387 7b4f4d649980196f6cbc10532e33c3ec ""
   "sections/Bai27.tex" 1773645487.55971 2292 0c0f590f34edf545b594d827f9bf1bc7 ""
   "sections/Bai28.tex" 1773671113.22372 2382 63f73f5794f5612a1da49f88a913a9e3 ""

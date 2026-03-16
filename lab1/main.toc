@@ -1,6 +1,6 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{Bài 2.2}{2}{section*.3}%
-\contentsline {section}{Bài 2.3}{4}{section*.5}%
-\contentsline {section}{Bài 2.4}{6}{section*.7}%
-\contentsline {section}{Bài 2.7}{8}{section*.8}%
-\contentsline {section}{Bài 2.8}{10}{section*.9}%
+\contentsline {section}{Bài 2.3}{4}{section*.4}%
+\contentsline {section}{Bài 2.4}{6}{section*.5}%
+\contentsline {section}{Bài 2.7}{8}{section*.6}%
+\contentsline {section}{Bài 2.8}{10}{section*.7}%
