@@ -30,18 +30,13 @@ $X_2-a'\begin{pmatrix}X_1\\X_3\end{pmatrix}$ độc lập.
 
 \textbf{Lời giải:}
 
-%--------2.4a--------
+%------2.4a------
 \begin{subquestion}
 \begin{answer}
 
 Đặt
 \[
-Y=3X_1-2X_2+X_3.
-\]
-
-Có thể viết
-\[
-Y=c'X,
+Y=3X_1-2X_2+X_3=c'X,
 \qquad
 c=
 \begin{pmatrix}
@@ -51,36 +46,17 @@ c=
 \end{pmatrix}.
 \]
 
-Vì $X\sim N_3(\mu,\Sigma)$ nên mọi tổ hợp tuyến tính của các thành phần của $X$ cũng có phân phối chuẩn. Do đó
+Vì $X\sim N_3(\mu,\Sigma)$ nên
 
 \[
-Y\sim N(c'\mu,\;c'\Sigma c).
+Y \sim N(c'\mu,c'\Sigma c).
 \]
 
-\textbf{Tính kỳ vọng}
+Ta có
 
 \[
-E(Y)=3E(X_1)-2E(X_2)+E(X_3).
+c'\mu=3\cdot2-2(-3)+1=13.
 \]
-
-Vì
-\[
-\mu=(2,-3,1)',
-\]
-
-nên
-
-\[
-E(Y)=3\cdot2-2(-3)+1=6+6+1=13.
-\]
-
-\textbf{Tính phương sai}
-
-\[
-Var(Y)=c'\Sigma c.
-\]
-
-Trước hết tính
 
 \[
 \Sigma c=
@@ -102,8 +78,6 @@ Trước hết tính
 \end{pmatrix}.
 \]
 
-Do đó
-
 \[
 c'\Sigma c=
 \begin{pmatrix}
@@ -114,24 +88,23 @@ c'\Sigma c=
 -1\\
 1
 \end{pmatrix}
-=6+2+1=9.
+=9.
 \]
 
-Vì vậy
+Do đó
 
 \[
-{3X_1-2X_2+X_3 \sim N(13,9).}
+3X_1-2X_2+X_3 \sim N(13,9).
 \]
 
 \end{answer}
 \end{subquestion}
 
-%--------2.4b--------
+%------2.4b------
 \begin{subquestion}
 \begin{answer}
 
 Đặt
-
 \[
 a=
 \begin{pmatrix}
@@ -143,21 +116,11 @@ a_2
 Khi đó
 
 \[
-a'
-\begin{pmatrix}
-X_1\\
-X_3
-\end{pmatrix}
-=a_1X_1+a_2X_3.
-\]
-
-Suy ra biến ngẫu nhiên
-
-\[
 Z=X_2-a_1X_1-a_2X_3.
 \]
 
-Vì $(X_1,X_2,X_3)$ có phân phối chuẩn nhiều chiều nên điều kiện để $X_2$ và $Z$ độc lập là
+Vì $(X_1,X_2,X_3)$ có phân phối chuẩn nhiều chiều nên  
+$X_2$ và $Z$ độc lập khi
 
 \[
 Cov(X_2,Z)=0.
@@ -166,42 +129,29 @@ Cov(X_2,Z)=0.
 Ta có
 
 \[
-Cov(X_2,Z)=Cov(X_2,X_2-a_1X_1-a_2X_3).
-\]
-
-Tính tuyến tính của hiệp phương sai:
-
-\[
 Cov(X_2,Z)
-=Cov(X_2,X_2)-a_1Cov(X_2,X_1)-a_2Cov(X_2,X_3).
+=Var(X_2)-a_1Cov(X_2,X_1)-a_2Cov(X_2,X_3).
 \]
 
-Từ ma trận $\Sigma$ ta có
+Từ $\Sigma$
 
 \[
-Var(X_2)=3,\qquad
-Cov(X_2,X_1)=1,\qquad
-Cov(X_2,X_3)=2.
+Var(X_2)=3,\qquad Cov(X_2,X_1)=1,\qquad Cov(X_2,X_3)=2.
 \]
 
 Do đó
 
 \[
-Cov(X_2,Z)=3-a_1-2a_2.
-\]
-
-Để hai biến độc lập cần
-
-\[
 3-a_1-2a_2=0
-\;\Leftrightarrow\;
-a_1+2a_2=3.
 \]
 
-Vì vậy mọi vector
+\[
+\Leftrightarrow\; a_1+2a_2=3.
+\]
+
+Vậy mọi vector
 
 \[
-{
 a=
 \begin{pmatrix}
 a_1\\
@@ -209,18 +159,9 @@ a_2
 \end{pmatrix}
 \in\mathbb{R}^2
 \text{ thỏa } a_1+2a_2=3
-}
 \]
 
-đều làm cho $X_2$ và
-$
-X_2-a'
-\begin{pmatrix}
-X_1\\
-X_3
-\end{pmatrix}
-$
-độc lập.
+đều làm cho hai biến độc lập.
 
 \end{answer}
 \end{subquestion}
