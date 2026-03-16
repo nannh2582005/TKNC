@@ -1,9 +1,13 @@
-\section*{Bài 2.8: Tìm ước lượng hợp lý cực đại (MLE)}
+\begin{question}{2.8}
+Tìm ước lượng hợp lý cực đại (MLE)
 
 Cho ma trận dữ liệu $\mathbf{X}$ kích thước $4 \times 2$ từ phân phối chuẩn 2 chiều $\mathcal{N}_2(\boldsymbol{\mu}, \boldsymbol{\Sigma})$:
 $$ \mathbf{X} = \begin{pmatrix} 3 & 6 \\ 4 & 4 \\ 5 & 7 \\ 4 & 7 \end{pmatrix} $$
 
-\subsection*{1. Ước lượng vectơ trung bình $\hat{\boldsymbol{\mu}}$}
+%--------2.8a--------
+\begin{subquestion}
+\begin{answer}
+\textbf{Ước lượng vector trung bình $\hat{\boldsymbol{\mu}}$}
 Vectơ trung bình MLE được tính bằng trung bình cộng các cột của ma trận dữ liệu:
 $$ \hat{\boldsymbol{\mu}} = \bar{\mathbf{x}} = \frac{1}{n} \sum_{i=1}^{n} \mathbf{x}_i $$
 
@@ -16,7 +20,13 @@ Tính toán cụ thể:
 Vậy:
 $$ \hat{\boldsymbol{\mu}} = \begin{pmatrix} 4 \\ 6 \end{pmatrix} $$
 
-\subsection*{2. Ước lượng ma trận hiệp phương sai $\hat{\boldsymbol{\Sigma}}$}
+\end{answer}
+\end{subquestion}
+
+%--------2.8b--------
+\begin{subquestion}
+\begin{answer}
+\textbf{Ước lượng ma trận hiệp phương sai $\hat{\boldsymbol{\Sigma}}$}
 Công thức MLE cho ma trận hiệp phương sai là:
 $$ \hat{\boldsymbol{\Sigma}} = \mathbf{S}_n = \frac{1}{n} \sum_{i=1}^{n} (\mathbf{x}_i - \bar{\mathbf{x}})(\mathbf{x}_i - \bar{\mathbf{x}})^T $$
 
@@ -29,6 +39,10 @@ $$ \tilde{\mathbf{X}}^T \tilde{\mathbf{X}} = \begin{pmatrix} -1 & 0 & 1 & 0 \\ 0
 Chia cho $n = 4$ để thu được kết quả cuối cùng:
 $$ \hat{\boldsymbol{\Sigma}} = \frac{1}{4} \begin{pmatrix} 2 & 1 \\ 1 & 6 \end{pmatrix} = \begin{pmatrix} 0.5 & 0.25 \\ 0.25 & 1.5 \end{pmatrix} $$
 
-\subsection*{Kết luận}
+\textbf{Kết luận}
 Cặp ước lượng hợp lý cực đại là:
 $$ \hat{\boldsymbol{\mu}} = \begin{pmatrix} 4 \\ 6 \end{pmatrix}, \quad \hat{\boldsymbol{\Sigma}} = \begin{pmatrix} 0.5 & 0.25 \\ 0.25 & 1.5 \end{pmatrix} $$
+
+\end{answer}
+\end{subquestion}
+\end{question}
