@@ -1,0 +1,132 @@
+\begin{question}{2.7}
+
+Cho các vector $X_1, X_2, X_3, X_4$ độc lập và có cùng phân phối
+\[
+N_p(\mu,\Sigma).
+\]
+
+\begin{enumerate}
+\item[(a)] Tìm các phân phối lề của các vector ngẫu nhiên
+\[
+V_1=\frac{1}{4}X_1-\frac{1}{4}X_2+\frac{1}{4}X_3-\frac{1}{4}X_4
+\]
+
+và
+\[
+V_2=\frac{1}{4}X_1+\frac{1}{4}X_2-\frac{1}{4}X_3-\frac{1}{4}X_4.
+\]
+\item[(b)] Tìm hàm phân phối đồng thời của $V_1$ và $V_2$.
+\end{enumerate}
+
+\textbf{Lời giải:}
+
+Cho
+\[
+X_1, X_2, X_3, X_4 \sim N_p(\mu,\Sigma)
+\]
+độc lập với nhau.
+
+Đặt
+\[
+V_1=\frac{1}{4}X_1-\frac{1}{4}X_2+\frac{1}{4}X_3-\frac{1}{4}X_4
+\]
+
+\[
+V_2=\frac{1}{4}X_1+\frac{1}{4}X_2-\frac{1}{4}X_3-\frac{1}{4}X_4
+\]
+
+%--------2.7a--------
+\begin{subquestion}
+\begin{answer}
+\textbf{Phân phối lề của $V_1$ và $V_2$}
+
+Do tổ hợp tuyến tính của các vector chuẩn nhiều chiều vẫn là chuẩn nhiều chiều nên $V_1, V_2$ đều có phân phối chuẩn nhiều chiều.
+
+Tính kỳ vọng:
+\[
+E(V_1)=\frac{1}{4}\mu-\frac{1}{4}\mu+\frac{1}{4}\mu-\frac{1}{4}\mu=0
+\]
+
+\[
+E(V_2)=\frac{1}{4}\mu+\frac{1}{4}\mu-\frac{1}{4}\mu-\frac{1}{4}\mu=0
+\]
+
+Tính hiệp phương sai:
+
+Vì các $X_i$ độc lập nên
+\[
+\mathrm{Var}(aX)=a^2\Sigma
+\]
+
+Do đó
+\[
+\mathrm{Var}(V_1)=\left(\frac{1}{4}\right)^2(\Sigma+\Sigma+\Sigma+\Sigma)
+=\frac{1}{4}\Sigma
+\]
+
+\[
+\mathrm{Var}(V_2)=\left(\frac{1}{4}\right)^2(\Sigma+\Sigma+\Sigma+\Sigma)
+=\frac{1}{4}\Sigma
+\]
+
+Vậy
+\[
+V_1\sim N_p\left(0,\frac{1}{4}\Sigma\right),
+\qquad
+V_2\sim N_p\left(0,\frac{1}{4}\Sigma\right).
+\]
+
+\end{answer}
+\end{subquestion}
+
+%--------2.7b--------
+\begin{subquestion}
+\begin{answer}
+\textbf{Phân phối đồng thời của $V_1$ và $V_2$}
+
+Ta tính hiệp phương sai
+\[
+\mathrm{Cov}(V_1,V_2)
+\]
+
+\[
+=\frac{1}{16}(\Sigma-\Sigma-\Sigma+\Sigma)=0.
+\]
+
+Do đó ma trận hiệp phương sai của vector
+\[
+(V_1,V_2)'
+\]
+
+là
+\[
+\begin{pmatrix}
+\frac{1}{4}\Sigma & 0 \\
+0 & \frac{1}{4}\Sigma
+\end{pmatrix}.
+\]
+
+Vì phân phối chuẩn nhiều chiều và hiệp phương sai bằng $0$ nên
+\[
+V_1 \perp V_2 .
+\]
+
+Do đó
+\[
+(V_1,V_2)' \sim
+N_{2p}
+\left(
+\begin{pmatrix}
+0\\
+0
+\end{pmatrix},
+\begin{pmatrix}
+\frac{1}{4}\Sigma & 0\\
+0 & \frac{1}{4}\Sigma
+\end{pmatrix}
+\right).
+\]
+\end{answer}
+\end{subquestion}
+
+\end{question}

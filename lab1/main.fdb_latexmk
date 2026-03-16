@@ -1,12 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1773632330.50021 "main.xdv" "main.pdf" "main" 1773632330.84928 0
-  "main.xdv" 1773632330.43612 30512 54d61f60cb89dab2071d50465c6c7d0b "xelatex"
+["xdvipdfmx"] 1773645764.44914 "main.xdv" "main.pdf" "main" 1773645767.73332 0
+  "main.xdv" 1773645764.38462 47972 112a9ea5d03abdcf42c922bcae2433e4 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1773632329.36913 "/home/ngocanh/TKNC/lab1/main.tex" "main.xdv" "main" 1773632330.84725 0
+["xelatex"] 1773645763.53221 "main.tex" "main.xdv" "main" 1773645767.73187 0
   "/etc/texmf/web2c/texmf.cnf" 1759987305.73438 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ngocanh/TKNC/lab1/main.tex" 1773631978.74514 3628 77a5983cbdc137f4793bbc889d73ac66 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -170,13 +169,14 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1765268420 10843920 cb5ca843910c9fe65360321bd5aa9013 ""
-  "main.aux" 1773632330.43612 544 e11b8977233d6871da108bf324836e5d "xelatex"
-  "main.out" 1773632330.43612 260 f3b4a69b698c808ee9bd0c5b59737616 "xelatex"
-  "main.tex" 1773631978.74514 3628 77a5983cbdc137f4793bbc889d73ac66 ""
-  "main.toc" 1773632330.43612 181 8b6b09d52c6777d47fb79a8d966c27c5 "xelatex"
-  "sections/Bai22.tex" 1773632329.16142 1401 30c8bdf87127250f2d540297791e3461 ""
-  "sections/Bai23.tex" 1773627052.51119 2600 0b6341c970ee23ea848e5235f7bf7180 ""
-  "sections/Bai24.tex" 1773629753.01172 2319 582ab989a77b12869703048fee26f6e1 ""
+  "main.aux" 1773645764.38462 635 80be99189a780a76e494e64f4b98453b "xelatex"
+  "main.out" 1773645764.38462 340 027aca1070d38a5e41303089d6894d5b "xelatex"
+  "main.tex" 1773645056.74452 3618 e496a88479b7b2bb45d01f056f7c2036 ""
+  "main.toc" 1773645764.38462 230 56838467b91a15a61818f755a9909115 "xelatex"
+  "sections/Bai22.tex" 1773645655.90833 2101 4ce148b6a94dce0cdd0203c22b62cba7 ""
+  "sections/Bai23.tex" 1773645359.87404 3693 532a9e62413f9f8f924497c53ab54a5d ""
+  "sections/Bai24.tex" 1773645444.36643 2387 7b4f4d649980196f6cbc10532e33c3ec ""
+  "sections/Bai27.tex" 1773645487.55971 2292 0c0f590f34edf545b594d827f9bf1bc7 ""
   (generated)
   "main.aux"
   "main.log"

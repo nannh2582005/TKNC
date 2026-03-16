@@ -1,5 +1,5 @@
 \begin{question}{2.2}
-    Cho
+Cho
 \[
 X = (X_1, X_2, X_3)' \sim N_3(\mu, \Sigma)
 \]
@@ -20,6 +20,7 @@ với
 -1 & 0 & 2
 \end{pmatrix}.
 \]
+
 Xét tính độc lập của:
 
 \begin{enumerate}
@@ -29,20 +30,69 @@ Xét tính độc lập của:
 \item[(d)] $X_1 \text{ và } X_1 + 3X_2 - 2X_3$
 \end{enumerate}
 
-%\begin{subquestion}
-%\begin{answer}
-% Add answer
-%\end{answer}
-%\end{subquestion}
+\textbf{Lời giải:}
+
+%--------2.2a--------
+\begin{subquestion}
+\begin{answer}
+
+Từ ma trận hiệp phương sai ta có
+\[
+\mathrm{Cov}(X_1, X_2) = \sigma_{12} = 0.
+\]
+
+Trong phân phối chuẩn nhiều chiều, hai biến ngẫu nhiên độc lập khi và chỉ khi hiệp phương sai của chúng bằng $0$.
+
+Do đó
+\[
+X_1 \perp X_2 .
+\]
+
+Vậy $X_1$ và $X_2$ độc lập.
+
+\end{answer}
+\end{subquestion}
+
+%--------2.2b--------
+\begin{subquestion}
+\begin{answer}
+
+Từ ma trận hiệp phương sai
+\[
+\mathrm{Cov}(X_1, X_3) = \sigma_{13} = -1.
+\]
+
+Vì
+\[
+-1 \ne 0
+\]
+
+nên
+\[
+X_1 \not\perp X_3 .
+\]
+
+Vậy $X_1$ và $X_3$ không độc lập.
+
+\end{answer}
+\end{subquestion}
+
+%--------2.2c--------
+\begin{subquestion}
+\begin{answer}
+    Câu c
+\end{answer}
+\end{subquestion}
 
 %--------2.2d--------
 \begin{subquestion}
 \begin{answer}
 
-Vì $X$ có phân phối chuẩn nhiều chiều nên mọi tổ hợp tuyến tính của các thành phần của $X$ cũng có phân phối chuẩn. Do đó vector
-\[
+Vì $X$ có phân phối chuẩn nhiều chiều nên mọi tổ hợp tuyến tính của các thành phần của $X$ cũng có phân phối chuẩn. 
+Do đó vector
+$
 (X_1,Y)'
-\]
+$
 có phân phối chuẩn hai chiều.\\
 
 Đặt
@@ -81,6 +131,4 @@ nên $X_1$ và $Y=X_1+3X_2-2X_3$ không độc lập.
 
 \end{answer}
 \end{subquestion}
-
-
 \end{question}

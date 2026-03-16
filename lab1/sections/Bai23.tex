@@ -1,4 +1,4 @@
-\begin{question}{2.3c}
+\begin{question}{2.3}
 Cho
 \[
 X = (X_1, X_2, X_3)' \sim N_3(\mu, \Sigma)
@@ -21,16 +21,74 @@ với
 \end{pmatrix}.
 \]
 
-Xác định phân phối có điều kiện của
+Xác định phân phối có điều kiện của:
+
+\begin{enumerate}
+\item[(a)] $X_1 \text{ khi biết } X_3 = x_3$
+\item[(b)] $X_1 \text{ khi biết } X_2 = x_2 \text{ và } X_3 = x_3$
+\item[(c)] $X_2 \text{ khi biết } X_1 = x_1 \text{ và } X_3 = x_3$
+\end{enumerate}
+
+\textbf{Lời giải:}
+
+%--------2.3a--------
+\begin{subquestion}
+\begin{answer}
+Ta có
 \[
-X_2 \text{ khi biết } X_1 = x_1 \text{ và } X_3 = x_3.
+X = (X_1, X_2, X_3)' \sim N_3(\mu,\Sigma).
 \]
 
-\begin{answer}
-Ta cần tìm phân phối của
+Phân phối điều kiện của $X_1$ khi biết $X_3=x_3$ trong phân phối chuẩn nhiều chiều là
 \[
-X_2 \mid (X_1 = x_1,\; X_3 = x_3).
+X_1 \mid X_3 = x_3 \sim \mathcal{N}(\mu_{1|3}, \sigma^2_{1|3})
 \]
+
+trong đó
+\[
+\mu_{1|3} = \mu_1 + \frac{\sigma_{13}}{\sigma_{33}}(x_3 - \mu_3)
+\]
+
+\[
+\sigma^2_{1|3} = \sigma_{11} - \frac{\sigma_{13}^2}{\sigma_{33}}
+\]
+
+Từ ma trận $\Sigma$ ta có
+\[
+\sigma_{11}=4, \qquad \sigma_{33}=2, \qquad \sigma_{13}=-1.
+\]
+
+Suy ra
+\[
+\mu_{1|3} = 1 + \frac{-1}{2}(x_3-2)
+\]
+
+\[
+\mu_{1|3} = 2 - \frac{x_3}{2}
+\]
+
+và
+\[
+\sigma^2_{1|3} = 4 - \frac{(-1)^2}{2} = \frac{7}{2}.
+\]
+
+Do đó
+\[
+X_1 \mid X_3 = x_3 \sim \mathcal{N}\left(2-\frac{x_3}{2}, \frac{7}{2}\right).
+\]
+\end{answer}
+\end{subquestion} 
+
+%--------2.3b--------
+\begin{subquestion}
+\begin{answer}
+    Câu 2.3b
+\end{answer}
+\end{subquestion}
+
+%--------2.3c--------
+\begin{subquestion}
+\begin{answer}
 
 Vì $X$ có phân phối chuẩn nhiều chiều nên phân phối có điều kiện của một thành phần khi biết các thành phần còn lại vẫn là phân phối chuẩn.
 
@@ -172,4 +230,6 @@ X_2 \mid (X_1 = x_1, X_3 = x_3) \sim N(-1, 5).
 \]
 
 \end{answer}
+\end{subquestion}
+
 \end{question}
